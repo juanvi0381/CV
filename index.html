@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <title>CV Argentina Programa 4.0</title>
+</head>
+
+<body>
+    <section>
+      <!-- Navegación con celular -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#sobremi" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">SOBRE MI</a>
+        <a href="#CV" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">C.V.</a>
+        <a href="#contacto" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACTO</a>
+      </div>
+
+      <!-- SECCION REDES SOCIALES -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGEN-->
+        <img src="JVS.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!-- BOTONES DE REDES SOCIALES-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.facebook.com/santacruz250" target="_blank">
+              <i data-feather="facebook"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/inmobiliaria.santa.cruz/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.twitter.com/santacruz250/" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/vicente-suarez-829610246/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--BOTON PARA DESCARGAAR CV-->
+        <div class="w3-container w3-padding-16">
+          <a href="./CV.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="cv.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DESCARGAR CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--SECCION CONTENIDO CV-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--NAVIGACION DESKTOP-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contacto" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACTO</a>
+          <a href="#CV" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">C.V.</a>
+          <a href="#sobremi" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">SOBRE MI</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!-- SECCION HOME-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"Enfocado en los objetivos, disfrutando el camino hacia ellos."</p>
+            <h1>Vicente Suárez</h1>
+            <h3>Corredor Inmobiliario</h3>
+            <p></p>
+          </div>
+
+          <!-- SECTION SOBREMI-->
+          <div id="sobremi" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">SOBRE MI</h2>
+            <p class="w3-margin-top-2"> 
+              En este resumen quiero expresar mi experiencia en el área Inmobiliaria.
+              Desde el comienzo realizando pequeñas construcciones, a la par de mi formación en ingenieria.
+              Ésto, mas la pasión en lo que hago y la gestión continua para lograr los objetivos me dieron una carrera en la vida.
+            </p>
+            <p class=""> 
+              La gestiónn de mi empresa se centra en atender a los clientes en cada paso que dan. Asesorando en decisiones importantes de la vida.
+              La seguridad y tranquiliad de un profesional inmobiliario hace que tengan un camino sin sobresaltos al hogar que todos anhelamos.
+              Estoy aqui para servirlos y los invito a contactarme para conversar y brindar mi tiempo y mi experiencia en dar la mejor opción para su situación.
+            </p>
+            
+          </div>
+
+          <!-- SECCION CV-->
+          <div id="CV" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">C.V.</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!-- HISTORIAL DE TRABAJOS-->
+              <h3 class="w3-border-amber">TRABAJOS DESARROLLADOS</h3>
+              <div class="">
+                <h4>CONSTRUCTOR DE VIVIENDAS</h4>
+                <p>Septiembre 2007 - Agosto 2008</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Planificar la construcción de una vivienda desde su proyecto a la entrega de llaves.</li>
+                  <li>Construir relación con los clientes para lograr la satisfacción con el producto realizado.</li>
+                  <li>Manejo de múltiples facetas de la construccón desde la aprobación de proyectos a manejar inconformidades.</li>
+                </ul>
+              </div>
+              <div class="">
+                <h4>DESARROLLADOR INMOBILIARIO</h4>
+                <p>Agosto 2008 - Abril 2019 </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Desarrollé un proyecto inmobiliario desde su factibilidad.</li>
+                  <li>Presenté el proyecto en busqueda de financiamiento y promocione en redes.</li>
+                  <li>Controlé las etapas constructivas brindando información a los clientes.</li>
+                  <li>Gestioné la aprobación final del desarrollo y continue con 4 proyectos de la misma manera.</li>  
+                </ul>
+              </div>
+              <div class="">
+                <h4>CORREDOR INMOBILIARIO</h4>
+                <p>Abril 2014 - Al Presente </p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Corredor a cargo de Inmobiliaria Santa Cruz en Tucumán.</li>
+                  <li>Realizando las gestiones de gerente de la empresa.</li>
+                  <li>Cumpliendo las tareas técnicas de tasación, compraventa y alquiler de propiedades, como así tambien administraciones de propiedades.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!--- SECCION EDUCACION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MI EDUCACIÓN</h3>
+                <h4>Corredor Inmobiliario, Universidad Siglo XXI, Tucumán</h4>
+                <p>Marzo 2017 - Noviembre 2018 </p>
+                <h4>Ingeniero Electrónico, Universidad Nacional de Tucumán, Tucumán</h4>
+                <p>Marzo 1998 - Junio 2005 </p>
+                <h4>Licenciado en Comercialización, Universidad Santo Tomás de Aquino, Tucumán</h4>
+                <p>Marzo 1998 - Junio 2002 </p>
+            </div>
+
+            <!-- SECCION HABILIDADES-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MIS HABILIDADES</h3>
+              <!--HABILIDADES BLANDAS-->
+              <h4>HABILIDADES BLANDAS</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Tengo buena comunicación con la gente entendiendo sus necesidades y escuchando su preocupación.</li>
+                <li>Desarrollé capacidad de aprendizaje segun el desafio que se planteé y de liderar a mi equipo para que también se supere con cada desafio. </li>
+                <li>Realizo la gestión de la empresa con la visión de negocios adaptándome a los cambios y aprovechando éstos.</li>
+              </ul>
+              <!--HABILIDADES TECNICAS-->
+              <h4>HABILIDADES TÉCNICAS</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Realizo todo el proceso legal, comercial y técnico de operaciones inmobiliarias</li>
+                  <li>Asesoro a cada cliente de una forma empática para darle la solución a sus necesidades.</li>
+                  <li>Realizo tareas de Community Manager generando comunicaciones, anuncios optimizando la inversión. </li>
+                </ul>
+            </div>
+
+            <!--SECCION DE INTERESES-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MIS INTERESES Y HOBBIES</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Me encanta la vida al aire libre, realizado actividades con mis hijas.</li>
+                  <li>Entreno cada dia en un gimnasio con un grupo desde hace mas de una década</li>
+                </ul>
+            </div>
+
+            <!--SECCIONES DE REFERENCIA-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MIS REFERENCIAS</h3>
+              <h4>Marcelo Carabajal, CEO at Inmobiliaria Master-Z</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+0123456789</li>
+                <li>marcelo@inmomaster.com</li>
+              </ul>
+              <h4>Ángela Cejas, Socia Gerente en Desarrollo Inmobiliario</h4>
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>+9876543210</li>
+                <li>angela@desainmo.com</li>
+              </ul>
+            </div>            
+          </div>
+
+          <!-- SECCION DE CONTACTO-->
+          <div id="contacto" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MIS DATOS DE CONTACTO</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Nombre: Juan Vicente Suárez</p>
+              <p>Domicilio: Juan Ramón Balcarce 473, San Miguel de Tucumán, Tucumán</p>
+              <p>Número de Teléfono: +54-9381-6740229</p>
+              <p>E-mail: juanvicentesuarez1979@gmail.com</p>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 - Inmobiliaria Santa Cruz</p>
+           <p class="w3-small">Matrícula CCIT 250</p>
+        <!-- Fin footer -->
+        </footer>
+
+        <!-- FIN DE LA SECCION CV -->
+      </section>      
+    </section>
+
+    <script>
+      // Function para abrir barra en mobile
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script para iconos
+      feather.replace()
+    </script>
+  </body>    
+</body>
+</html>
